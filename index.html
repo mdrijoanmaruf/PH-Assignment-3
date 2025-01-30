@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title></title>
+
+    <style>
+        .sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+  </head>
+  <body class="sora">
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <!-- Nav Bar for desktop-->
+        <nav class="hidden md:flex max-w-7xl mx-auto justify-between items-center py-6">
+            <div class="w-[120px] hover:scale-105 duration-300">
+                <img src="images/logo-header.png" alt="">
+            </div>
+
+            <ul class="flex gap-8">
+                <li><a class="text-[#111111] hover:text-[#179800] font-[400]" href="#">Products</a></li>
+                <li><a class="text-[#111111] hover:text-[#179800] font-[400]" href="#">Services</a></li>
+                <li><a class="text-[#111111] hover:text-[#179800] font-[400]" href="#">Contact us</a></li>
+            </ul>
+
+            <div class="flex gap-4 items-center">
+                <i class="fa-solid fa-magnifying-glass text-[#111111] hover:text-[#179800] text-xl"></i>
+                <i class="fa-solid fa-cart-shopping text-[#111111] hover:text-[#179800] text-xl"></i>
+                <button class="border-[#179800] border-[1.5px] py-[5px] px-[25px] rounded-md font-[400] text-[#111111] hover:text-[#179800] hover:bg-white">Login</button>
+                <button class="border-[#179800] border-[1.5px] py-[5px] px-[25px] rounded-md bg-[#179800] font-[400] hover:bg-white text-white hover:text-[#179800]">Register</button>
+            </div>
+        </nav>
+
+        <!-- Nav bar for mobile -->
+         <nav class="max-w-[94%] mx-auto py-6 flex md:hidden justify-between items-center">
+            <img class="w-[50px]" src="images/logo-mobile.png" alt="">
+            <i class="fa-solid fa-bars text-2xl"></i>
+         </nav>
+
+        <!-- Hero part -->
+        <div>
+
+        </div>
+    </header>
+  </body>
+</html>
