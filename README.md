@@ -3,7 +3,7 @@
 Welcome to the **Freshness You Can Count On** project! This is a simple yet elegant webpage showcasing fresh produce with a beautiful Tailwind CSS-based animation.
 
 ## 🚀 Live Demo
-[Click here to view the live project](#) *(Replace `#` with your actual live URL)*
+[Click here to view the live project](https://rijoan-ph-assignment-3.netlify.app/) 
 
 ## 📌 Features
 - Fully responsive design
